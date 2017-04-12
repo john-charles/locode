@@ -1,0 +1,28 @@
+{
+  "name": "locode",
+  "version": "1.0.0",
+  "description": "A Module for Reading and writing UN CFCT LOCODE data",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "UN/CEFACT",
+    "LOCODE",
+    "locode",
+    "city",
+    "state",
+    "country",
+    "location"
+  ],
+  "author": "John-Charles D. Sokolow",
+  "license": "ISC",
+  "devDependencies": {
+    "csv": "^1.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "csv": "^1.1.1",
+    "lodash": "^4.17.4"
+  }
+}

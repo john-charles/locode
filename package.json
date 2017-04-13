@@ -4,7 +4,7 @@
   "description": "A Module for Reading and writing UN CFCT LOCODE data",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/_mocha --timeout 20000 tests/*.test.js"
   },
   "keywords": [
     "UN/CEFACT",
@@ -18,7 +18,10 @@
   "author": "John-Charles D. Sokolow",
   "license": "ISC",
   "devDependencies": {
-    "csv": "^1.1.1"
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "csv": "^1.1.1",
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "bluebird": "^3.5.0",

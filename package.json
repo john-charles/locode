@@ -1,6 +1,6 @@
 {
   "name": "locode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Module for Reading and writing UN CFCT LOCODE data",
   "main": "lib/index.js",
   "scripts": {
